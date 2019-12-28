@@ -1,6 +1,5 @@
 # Web-Wallpaper
-This code allows you to set a webbrowser as wallpaper in Windows 10. You will only require to add a webbrowser to your form.
-You can use any window Handle as wallpaper.
+This code allows you to set a webbrowser as wallpaper in Windows 10 like Wallpaper Engine. You will only require to add a webbrowser to your form. You can use any window Handle as wallpaper.
 
 
 Declarations
