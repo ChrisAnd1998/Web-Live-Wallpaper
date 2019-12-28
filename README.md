@@ -4,7 +4,7 @@ This code allows you to set a webbrowser as wallpaper in Windows 10 like Wallpap
 
 Declarations
 ```vb.net
-       <DllImport("user32.dll", SetLastError:=True, CharSet:=CharSet.Auto)>
+    <DllImport("user32.dll", SetLastError:=True, CharSet:=CharSet.Auto)>
     Public Shared Function SendMessageTimeout(ByVal windowHandle As IntPtr, ByVal Msg As UInteger, ByVal wParam As IntPtr, ByVal lParam As IntPtr, ByVal flags As SendMessageTimeoutFlags, ByVal timeout As UInteger, <System.Runtime.InteropServices.Out()> ByRef result As IntPtr) As IntPtr
     End Function
 
